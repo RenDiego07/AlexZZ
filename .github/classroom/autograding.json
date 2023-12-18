@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "encrypy",
+      "setup": "",
+      "run": "make -f Testfile encrypt",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "decrypt",
+      "setup": "",
+      "run": "make -f Testfile decrypt",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 2,
+      "points": 2
+    }
+  ]
+}
